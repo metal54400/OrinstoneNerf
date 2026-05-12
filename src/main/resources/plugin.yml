@@ -1,0 +1,20 @@
+name: OrinstonNerf
+version: '2.0.0'
+main: fr.orinston.nerf.OrinstonNerf
+api-version: '1.21'
+authors: [ Orinstone ]
+description: Nerf configurable des raids, shulkers, villageois et mace.
+softdepend: [ ChestShop ]
+
+commands:
+  orinstonnerf:
+    description: Menu admin OrinstonNerf
+    aliases: [onf, nerf]
+    usage: /orinstonenerf <reload|gui>
+    permission: orinstonenerf.admin
+
+permissions:
+  orinstonnerf.admin:
+    default: op
+  orinstonnerf.bypass:
+    default: false
